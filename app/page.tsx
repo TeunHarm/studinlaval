@@ -38,7 +38,7 @@ export default function Home() {
                 </div>
                 <div className={"flex flex-col lg:place-content-around lg:flex-row"}>
                     {
-                        upcomingEvents(sortEvents(getEvents()), 2).map((e, ind) => <ComingEvent event={e} key={ind}/>)
+                        upcomingEvents(sortEvents(getEvents()), true, 2).map((e, ind) => <ComingEvent event={e} key={ind}/>)
                     }
                 </div>
             </div>
@@ -64,11 +64,13 @@ export default function Home() {
 }
 
 function ComingEvent({event}: {event: EventInfo}) {    
+    const endsToday = (new Date()).getDate() == event.end.getDate() && (new Date()).getMonth() == event.end.getMonth();
+    const daysUntil = Math.ceil((event.start.getTime() - (new Date()).getTime()) / 1000 / 60 / 60 / 24);
+    const daysLeft = Math.ceil((event.end.getTime() - (new Date()).getTime()) / 1000 / 60 / 60 / 24);
+    
     return (
-        <div
-             className={"bg-gradient-to-br from-[#ffbb1b] to-[#ff25c6] rounded-xl shadow-lg shadow-gray-400 dark:shadow-gray-900 mt-2 lg:w-[45%] p-[3px]"}>
-            <div
-                className={"flex flex-col w-full h-full p-2 rounded-[0.65rem] bg-white bg-gradient-to-br from-white to-gray-100 dark:bg-none dark:bg-gray-800"}>
+        <div className={"bg-gradient-to-br from-[#ffbb1b] to-[#ff25c6] rounded-xl shadow-lg shadow-gray-400 dark:shadow-gray-900 mt-2 lg:w-[45%] p-[3px]"}>
+            <div className={"flex flex-col w-full h-full p-2 rounded-[0.65rem] bg-white bg-gradient-to-br from-white to-gray-100 dark:bg-none dark:bg-gray-800"}>
                 <b className={"mx-auto text-xl lg:text-2xl"}>{event.name}</b>
                 <p className={"flex-grow my-2 text-base lg:text-xl text-justify text-ellipsis line-clamp-5"}>{event.description}</p>
                 {
@@ -76,22 +78,21 @@ function ComingEvent({event}: {event: EventInfo}) {
                         (
                             <div className={"text-base lg:text-xl"}>
                                 <div className={"flex flex-row-reverse md:flex-row items-center"}>
-                                    <div
-                                        className={"ml-auto md:ml-0 md:mr-2 border-2 border-blue-500 bg-blue-400 rounded-xl p-1 pb-0.5"}>En
-                                        cours
+                                    <div className={"ml-auto md:ml-0 md:mr-2 border-2 border-blue-500 bg-blue-400 rounded-xl p-1 pb-0.5"}>
+                                        En cours
                                     </div>
-                                    <p>Jusqu&#39;au {event.end.toLocaleDateString("fr-FR", {
-                                        day: "numeric",
-                                        month: "long",
-                                        year: "numeric"
-                                    })}.</p>
+                                    <p>
+                                        Jusqu&#39;au {event.end.toLocaleDateString("fr-FR", {
+                                            day: "numeric",
+                                            month: "long",
+                                            year: "numeric"
+                                        })}.
+                                    </p>
                                     {
-                                        ((new Date()).getDate() == event.end.getDate() && (new Date()).getMonth() == event.end.getMonth()) ?
-                                            <b className={"inline-block ml-1"}>Se termine aujourd&lsquo;hui.</b>
-                                            :
-                                            <p className={"inline-block ml-1"}>Il
-                                                reste <b>{Math.ceil((event.end.getTime() - (new Date()).getTime()) / 1000 / 60 / 60 / 24)}</b> jours.
-                                            </p>
+                                        endsToday ?
+                                            <b className={"inline-block ml-1"}>Se termine aujourd&lsquo;hui.</b>    
+                                        :
+                                            <p className={"inline-block ml-1"}>Il reste <b>{daysLeft}</b> jours.</p>
                                     }
                                 </div>
                             </div>
@@ -102,7 +103,7 @@ function ComingEvent({event}: {event: EventInfo}) {
                             month: "long",
                             year: "numeric"
                         })}.
-                            Dans <b>{Math.ceil((event.start.getTime() - (new Date()).getTime()) / 1000 / 60 / 60 / 24)}</b> jours.
+                            Dans <b>{daysUntil}</b> jours.
                         </p>
                 }
             </div>

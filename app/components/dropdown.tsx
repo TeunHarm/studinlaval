@@ -1,22 +1,31 @@
 import {Dispatch, useState} from "react";
 
-export function Dropdown({className, items, changed, single} : {className: string, items: string[], changed: Function, single?: boolean}) {
+export function Dropdown({className, items, changed, single, allText = ""} : {className: string, items: string[], changed: Function, single?: boolean, allText?: string}) {
     const [selected, setSelected] = useState(single ? [0] : items.map((val, ind) => ind));
     const [show, setShow] = useState(false);
+    const max = 5;
     
     let active = "";
     let count = 0;
     if (single) {
         active = items[selected[0]];
     }
+    if (allText != "" && selected.length === items.length) {
+        active = allText
+    }
     else
     {
         items.forEach((item, ind) => {
             if (selected.includes(ind)) {
                 count++;
-                active += item;
-                if (count < selected.length)
-                    active += " • "
+                if (count === max) {
+                    active += "..."
+                }
+                else if (count < max) {
+                    active += item;
+                    if (count < selected.length)
+                        active += " • "
+                }
             }
         });
     }

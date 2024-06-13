@@ -78,8 +78,8 @@ export default function LaListe() {
                 <input className={"m-2 p-2 mb-3 border-2 border-[#f28e77] rounded-lg bg-gray-200 dark:bg-gray-700 text-lg md:text-xl"} placeholder={"Recherche"} onChange={(val) => setSearch(val.target.value)} />
                 <div className={" flex flex-row flex-wrap lg:flex-nowrap mx-2 justify-around lg:justify-start"}>
                     <div className={"w-full lg:w-min min-w-0 flex justify-between lg:justify-start md:mx-2 lg:mx-0"}>
-                        <Dropdown className={"w-full lg:w-auto lg:flex-grow min-w-0"} items={types} changed={(val: number[]) => setTypes(val.map((v) => types[v]))} />
-                        <Dropdown className={"w-full lg:w-auto lg:ml-4 min-w-0"} items={tarifs} changed={(val: number[]) => setPrices(val)} />
+                        <Dropdown className={"w-full lg:w-auto lg:flex-grow min-w-0"} allText={"Tous les types"} items={types} changed={(val: number[]) => setTypes(val.map((v) => types[v]))} />
+                        <Dropdown className={"w-full lg:w-auto lg:ml-4 min-w-0"} allText={"Tous les prix"} items={tarifs} changed={(val: number[]) => setPrices(val)} />
                     </div>
                     <div className={"w-auto flex-grow min-w-0 flex justify-around md:mx-2 lg:mx-0"}>
                         <Dropdown className={"w-full lg:w-auto lg:ml-4"} items={localisations} changed={(val: number[]) => setLocations(val.map((v, i) => localisations[v]))} />
