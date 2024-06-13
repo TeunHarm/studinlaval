@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bienvenue sur le répertoire Git du site web de Stud'in Laval
 
-## Getting Started
+Ce site web est développé avec **React**, plus précisément avec le framework **Next.JS**.<br/>
+Il utilise également **TypeScript** pour le code ainsi que **TailwindCSS** pour la sylisation.
 
-First, run the development server:
+## Modifications simples :
+* Ajout d'un lieux :
+  * Allez dans /app/locations.json
+  * Ajouter un nouvel élément dans la liste principale, vous pouvez vous aidez de ceux éxistant pour voir les champs possibles.
+* Ajout d'un événement :
+  * Allez dans /app/events.json
+  * Comme pour les lieux, ajouter un élément.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Exportation du site
+Actuellement lors d'un ```next build``` une exportation statique du site sera automatiquement créer, ceci permet de mettre le site sur un serveur web classique et non derrière NodeJS.
+Si aucun changement problèmatique à été fait, une simple éxécution de la commande ```next build``` dans la racine devrait suiffire à exporter le site.
