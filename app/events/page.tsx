@@ -1,44 +1,10 @@
 'use client'
-import {useEffect, useState} from "react";
-import {ListPopup} from "@/app/list/popup";
 import Image from "next/image";
-import {useRouter, useSearchParams} from "next/navigation";
 import {eventComing, EventInfo, eventPassed, eventToday, getEvents, sortEvents} from "@/app/eventManager";
 import Link from "next/link";
 
 export default function LaListe() {
-    const router = useRouter();
-    const searchParams = useSearchParams()
-
-    const types = ["Essentielles", "Bars", "Restauration", "Loisirs"];
-    const tarifs = ["Gratuit", "€", "€€", "€€€"];
-    const localisations = ["Laval", "Périphérie"];
-    const status = ["Ouvert", "Fermé"];
-
-    const sorts = ["Nom", "Prix croissant", "Prix décroissant"];
-
-    const [search, setSearch] = useState("");
-    const [selectedTypes, setTypes] = useState(types);
-    const [selectedPrices, setPrices] = useState(tarifs.map((v, i) => i));
-    const [selectedLocations, setLocations] = useState(localisations);
-    const [selectedStatus, setStatus] = useState([0, 1]);
-
-    const [selectedSort, setSort] = useState(0);
-
-    const [openPlace, setOpenPlace] = useState(searchParams ? ((searchParams.get("place") || -1 ) as number) : -1);
-    /*const scroll = useRef(0);
-    scrollTo({top: scroll.current});*/
-
     const results = sortEvents(getEvents());
-
-    useEffect(() => {
-        document.body.style.overflow = openPlace >= 0 ? "hidden" : "auto";
-        //document.body.style.paddingRight = openPlace >= 0 ? "15.5px" : "0px";
-        return () => {
-            document.body.style.overflow = "auto";
-            //document.body.style.paddingRight = "0px";
-        };
-    }, [openPlace]);
 
     return (
         <main className={"flex flex-grow flex-col"}>
@@ -50,20 +16,16 @@ export default function LaListe() {
             <div className={"flex flex-row flex-wrap place-content-around mx-[1rem] lg:mx-[15%]"}>
                 {
                     results.length > 0 ?
-                        results.map((data, index) => <Item key={index} eventInfo={data} onOpened={(ind: number) => {setOpenPlace(ind); /*router.replace("?place="+ind)*/}}></Item>)
+                        results.map((data, index) => <EventItem key={index} eventInfo={data}/>)
                         :
                         <p className={"text-xl md:text-2xl m-auto text-gray-800 dark:text-gray-200"}>Pas encore d&lsquo;événements à venir.</p>
                 }
-            </div>
-
-            <div className={"absolute top-0 bottom-0 left-0 right-0 pointer-events-none"}>
-                <ListPopup placeId={openPlace} onClosed={() => {setOpenPlace(-1); /*router.replace("/list")*/}} />
             </div>
         </main>
     )
 }
 
-function Item({eventInfo, onOpened}: {eventInfo: EventInfo, onOpened: Function}) {
+function EventItem({eventInfo}: {eventInfo: EventInfo}) {
     const isPassed = eventPassed(eventInfo);
     const isOpen = eventComing(eventInfo) && !isPassed;
     const isOneDay = eventInfo.start.getDate() == eventInfo.end.getDate() && eventInfo.start.getMonth() == eventInfo.end.getMonth();

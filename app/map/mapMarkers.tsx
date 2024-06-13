@@ -64,8 +64,8 @@ export default function MapMarkers() {
                         <input className={"m-2 p-2 mb-4 border-2 border-[#f28e77] rounded-lg bg-gray-200 dark:bg-gray-700 text-lg md:text-xl"} placeholder={"Recherche"} onChange={(val) => setSearch(val.target.value)} />
         
                         <div className={"flex flex-wrap place-content-center lg:flex-col lg:flex-nowrap"}>
-                            <Dropdown className={"mx-2"} items={types} changed={(val: number[]) => setTypes(val.map((v) => types[v]))} />
-                            <Dropdown className={"mx-2"} items={tarifs} changed={(val: number[]) => setPrices(val)} />
+                            <Dropdown className={"mx-2"} allText={"Tous les types"} items={types} changed={(val: number[]) => setTypes(val.map((v) => types[v]))} />
+                            <Dropdown className={"mx-2"} allText={"Tous les prix"} items={tarifs} changed={(val: number[]) => setPrices(val)} />
         
                             <Dropdown className={"mx-2 "} items={localisations} changed={(val: number[]) => setLocations(val.map((v, i) => localisations[v]))} />
                             <Dropdown className={"mx-2"} items={status} changed={(val: number[]) => setStatus(val)} />

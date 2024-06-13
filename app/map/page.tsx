@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import {ReactNode} from "react";
-//import {MapMarkers} from "@/app/map/mapMarkers";
 
 export default function LaCarte() {
     // @ts-ignore

@@ -5,7 +5,6 @@ import {
     getCategories,
     IsOpen,
     ListLocations,
-    ListSorting,
     PlaceInfo,
     SortList,
     filter
@@ -13,13 +12,12 @@ import {
 import {useEffect, useMemo, useRef, useState} from "react";
 import {ListPopup} from "@/app/list/popup";
 import Image from "next/image";
-import {useRouter, useSearchParams} from "next/navigation";
+import {useSearchParams} from "next/navigation";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Link from "next/link";
 
 export default function LaListe() {
-    const router = useRouter();
-    const searchParams = useSearchParams()
+    const searchParams = useSearchParams();
     
     const types = getCategories();
     const tarifs = ["Variable", "Gratuit", "€", "€€", "€€€"];
@@ -102,7 +100,7 @@ export default function LaListe() {
                     }
                 >
                 {
-                    results.map((data, index) => <Item key={index} placeInfo={data} onOpened={(ind: number) => {setOpenPlace(ind); /*router.replace("?place="+ind)*/}}></Item>)
+                    results.map((data, index) => <ListItem key={index} placeInfo={data} onOpened={(ind: number) => {setOpenPlace(ind); /*router.replace("?place="+ind)*/}}/>)
                 }
                 </InfiniteScroll>
             </div>
@@ -114,7 +112,7 @@ export default function LaListe() {
     )
 }
 
-function Item({placeInfo, onOpened}: {placeInfo: PlaceInfo, onOpened: Function}) {
+function ListItem({placeInfo, onOpened}: {placeInfo: PlaceInfo, onOpened: Function}) {
     const isOpen = IsOpen(placeInfo);
     
     return (
