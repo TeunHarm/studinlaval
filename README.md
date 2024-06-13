@@ -2,7 +2,7 @@
  <img width="256" height="256" src="public/logo.png">
 </p>
 
-# Bienvenue sur le répertoire Git du site web de Stud'in Laval
+# Bienvenue sur le répertoire de Stud'in Laval
 
 Ce site web est développé avec **React**, plus précisément avec le framework **Next.JS**.<br/>
 Il utilise également **TypeScript** pour le code ainsi que **TailwindCSS** pour la sylisation.
