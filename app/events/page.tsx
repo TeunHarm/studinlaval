@@ -45,7 +45,7 @@ function EventItem({eventInfo}: {eventInfo: EventInfo}) {
                 <div className={"flex-grow"}>
                     {
                         eventInfo.logo ?
-                            <Image alt="Logo" src={eventInfo.logo ? eventInfo.logo : "/logo_white.png"} width={48} height={48} className={"p-2 float-left aspect-auto w-[72px] lg:w-[128px] ".concat(eventInfo.name.length < 20 ? "-mt-12" : (eventInfo.name.length < 80 ? "min-[2400px]:-mt-12" : ""))} />
+                            <Image alt="Logo" src={eventInfo.logo ? eventInfo.logo : "/logo_white.png"} width={48} height={48} className={"p-2 float-left aspect-auto w-[72px] lg:w-[90px] xl:w-[128px] ".concat(eventInfo.name.length < 20 ? "-mt-12" : (eventInfo.name.length < 80 ? "min-[2400px]:-mt-12" : ""))} />
                             : null
                     }
                     <div className={"flex -mt-2 lg:mt-0 mb-2"}>
