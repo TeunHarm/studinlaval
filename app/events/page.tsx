@@ -65,10 +65,14 @@ function EventItem({eventInfo}: {eventInfo: EventInfo}) {
                         }
                     </p>
                     {
-                        endsToday ?
-                            <b className={"inline-block"}>Se termine aujourd&lsquo;hui.</b>
-                        :
-                            <p className={"inline-block"}>{(new Date()) > eventInfo.start ? "Il reste" : "Dans"} <b>{timeUntil}</b> jours.</p>
+                        isPassed ?
+                            null
+                        : (
+                            endsToday ?
+                                <b className={"inline-block"}>Se termine aujourd&lsquo;hui.</b>
+                            :
+                                <p className={"inline-block"}>{(new Date()) > eventInfo.start ? "Il reste" : "Dans"} <b>{timeUntil}</b> jours.</p>
+                        )
                     }
                 </div>
     
