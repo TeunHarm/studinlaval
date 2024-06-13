@@ -1,0 +1,934 @@
+[
+  {
+    "name": "Espace TUL",
+    "type": "Transport",
+    "price": 1,
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/8/87/TUL_Logo_2023.jpeg",
+    "description": "Espace de vente des TUL, ici vous pourrez demander des informations, acheter un titre de transport ou créer une carte.",
+    "lat": 48.0718,
+    "lon": -0.7735,
+    "address": "11 All. du Vieux Saint-Louis, 53000 Laval",
+    "website": "tul-laval.com",
+    "phone": "02 43 53 00 00",
+    "hours": [
+      [ 9, 18 ],
+      [ 9, 18 ],
+      [ 9, 18 ],
+      [ 9, 18 ],
+      [ 9, 18 ],
+      [ 9, 12, 14, 18 ],
+      []
+    ],
+    "prices": [
+      [
+        "Jeune (abonnement pour 1 an)",
+        128
+      ],
+      [
+        "Adulte (abonnement pour 1 an)",
+        238.5
+      ],
+      [
+        "Ticket heure",
+        1.3
+      ],
+      [
+        "Ticket journée",
+        3.25
+      ]
+    ],    
+    "gallery": [
+      "https://medias.lecourrierdelamayenne.fr/photos/1200/21315/"
+    ]
+  },
+  {
+    "name": "Jardin de la Perrine",
+    "description": "Espace vert en plein milieu de la ville, c'est l'endroit idéal pour se promener, voir des animaux ou même pique-niquer.",
+    "type": "Lieux Notables",
+    "lat": 48.0667,
+    "lon": -0.7699,
+    "address": "Pl. des 4 Docteurs Bucquet, 53000 Laval",
+    "website": "laval.fr/decouvrir-sortir/parcs-et-jardins/jardin-de-la-perrine",
+    "phone": "02 43 49 43 00",
+    "hours": [
+      [ 8, 19.5 ],
+      [ 8, 19.5 ],
+      [ 8, 19.5 ],
+      [ 8, 19.5 ],
+      [ 8, 19.5 ],
+      [ 8, 19.5 ],
+      [ 8, 19.5 ]
+    ],
+    "prices": [
+      "Entrée libre"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://www.beauxjardinsetpotagers.fr/image/beaux_jardins/1193/medium/03_La_roseraie_Jardin_de_la_Perrine.JPG",
+      "https://maville.com/photosmvi/2023/04/28/P32584473D5743376G.jpg",
+      "https://www.beauxjardinsetpotagers.fr/image/beaux_jardins/1193/medium/09_les_horloges_v_g_tales_en_l_honneur_d.JPG",
+      "https://medias.lecourrierdelamayenne.fr/photos/1200/20779/",
+      "https://www.laval-tourisme.com/sites/laval-tourisme/files/styles/ogimage/public/img_6978_1.jpg?itok=rBxMrAoa"
+    ]
+  },
+  {
+    "name": "Roadside",
+    "type": "Restauration",
+    "description": "Des burgers et des hot-dogs généreux en plein centre-ville, le tout avec des prix abordables en font un endroit incontournable pour les étudiants !",
+    "price": 2,
+    "icon": "https://officieldelafranchise.fr/wp-content/uploads/site//3/logo-roadside-quadrie-01.png",
+    "lat": 48.0705,
+    "lon": -0.7720,
+    "website": "roadside.fr/restaurant/laval",
+    "address": "8 Rue de Verdun, 53000 Laval",
+    "phone": "09 83 60 43 63",
+    "hours": [
+      [ 9.5, 22 ],
+      [ 9.5, 22 ],
+      [ 9.5, 22 ],
+      [ 9.5, 22 ],
+      [ 9.5, 22.5 ],
+      [ 9.5, 22.5 ],
+      [ 9.5, 22 ]
+    ],
+    "prices": [
+      "Menu Étudiant disponible pour moins de 10€, en dehors de l'offre il faut compter entre 7€ et 10€ pour un menu Hot-Dog et entre 9€ et 15€ pour un menu burger."
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://www.roadside.fr/wp-content/uploads/2018/01/RoadsideLaval_restaurant.jpg",
+      "https://maville.com/photosmvi/2019/02/15/P19339060D3649288G.jpg",
+      "https://www.roadside.fr/wp-content/uploads/2016/12/RoadsideRestaurant_burger.jpg"
+    ]
+  },
+  {
+    "name": "Monky Laval",
+    "type": "Loisirs",
+    "description": "Bowling, Laser Game, Escape Game, Jump Park et bien d'autres encore ! C'est l'endroit idéal pour faire une sortie avec ses amis à prix raisonnable !",
+    "price": 1,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-tOfYk240E3MS0Gzjklp7NklLm6v7-O8qQ66E21gZkiv6mlweIJmaWnvqtKoipLuKlQM&usqp=CAU",
+    "lat": 48.0833,
+    "lon": -0.7953,
+    "website": "monky.fr/laval",
+    "address": "Parc de l'Habitat, 30 Rue du Petit Montron, 53000 Laval",
+    "phone": "02 43 26 13 67",
+    "hours": [
+      [ 11, 24 ],
+      [ 11, 24 ],
+      [ 11, 24 ],
+      [ 11, 24 ],
+      [ 11, 24 ],
+      [ 0, 1, 10, 24 ],
+      [ 0, 1, 10, 24 ]
+    ],
+    "prices": [
+      [
+        "Bowling en semaine jusqu'à 18h - Tarif pour 1 personne",
+        3
+      ],
+      [
+        "Bowling en du Lundi au Mercredi à partir de 18h- Tarif pour 1 personne",
+        5
+      ],
+      [
+        "Bowling week-end toute la journée / Jeudi et Vendredi à partir de 18h - Tarif pour 1 personne",
+        7
+      ],
+      [
+        "Prix pour 1 jeton de borne d'arcade (Réductions en achetant plusieurs jetons)",
+        2
+      ],
+      [
+        "Karting en semaine jusqu'au Vendredi à 18h - Tarif pour 1 personne",
+        14
+      ],
+      [
+        "Karting week-end toute la journée / Vendredi à partir de 18h - Tarif pour 1 personne",
+        17
+      ],
+      [
+        "Laser Game 1 partie (Réduction pour 2 parties) - Tarif pour 1 personne",
+        8.9
+      ],
+      [
+        "Jump Park - Tarif pour 1 personne",
+        11
+      ],
+      [
+        "Escape Game (sur réservation) - Tarif pour 1 personne",
+        14.9
+      ],
+      [
+        "Karaoké en semaine jusqu'au Vendredi à 18h - Tarif à l'heure pour un groupe de maximum 12 personnes",
+        25
+      ],
+      [
+        "Karaoké week-end toute la journée / Vendredi à partir de 18h - Tarif à l'heure pour un groupe de maximum 12 personnes",
+        35
+      ],
+      [
+        "Masterquizz",
+        9.9
+      ]
+    ],
+    "gallery": [
+      "https://www.francebleu.fr/s3/cruiser-production/2023/12/82060d90-e531-4f25-80be-6939a4de2134/1200x680_sc_whatsapp-image-2023-12-17-at-4-12-55-pm.jpg",
+      "https://maville.com/photosmvi/2023/12/14/P33650724D6076760G.jpg",
+      "https://media.ouest-france.fr/v1/pictures/MjAyMzEyMjY4NDY5ODI0YTAyNWI1NDZmYTNlZThkMGQ0NTBhMzc",
+      "https://monky.fr/laval/wp-content/uploads/sites/14/2023/03/monky-245-scaled-1.jpeg"
+    ]
+  },
+  {
+    "name": "Cinéville Laval",
+    "type": "Loisirs",
+    "description": "Le Cinéville est le cinéma de Laval, de nombreux programmes sont disponibles avec des tarifs étudiants.",
+    "price": 2,
+    "icon": "https://tourismeloisirs44.fr/732-tm_thickbox_default/cineville-laval-et-autres-cinemas-53.jpghttps://pbs.twimg.com/profile_images/1491048735299756034/nP8NZje-_400x400.jpg",
+    "lat": 48.0721,
+    "lon": -0.7718,
+    "website": "laval.cineville.fr",
+    "address": "25 Quai André Pinçon, 53000 Laval",
+    "phone": "02 43 59 93 93",
+    "hours": [
+      [ 10, 21 ],
+      [ 10, 21 ],
+      [ 10, 21 ],
+      [ 10, 21 ],
+      [ 10, 23 ],
+      [ 10, 23 ],
+      [ 10, 21 ]
+    ],
+    "prices": [
+      "Tarifs Étudiants disponibles"
+    ],
+    "gallery": [
+      "https://www.pagesjaunes.fr/media/agc/20/93/81/00/00/fb/55/cf/01/23/5d3f2093810000fb55cf0123/5d3f2093810000fb55cf0124.jpg"
+    ]
+  },
+  {
+    "name": "Boutique des Socios du Stade Lavallois",
+    "type": "Commerce",
+    "description": "Gérée par des passionnés, ce lieu est incontournable pour vous procurer tout l'attirail du supporter Lavallois !",
+    "price": 2,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJd6SUNJqyDCvM6Pv7ntPN6V_Z_XYlSTpOGdCEzOn8nQ&s",
+    "lat": 48.0713,
+    "lon": -0.7645,
+    "address": "15 Rue de Paris, 53000 Laval",
+    "phone": "02 43 69 22 93",
+    "hours": [
+      [ 14, 17 ],
+      [ 14, 18.5 ],
+      [],
+      [ 14, 18.5 ],
+      [ 14, 17 ],
+      [],
+      []
+    ],
+    "prices": [
+      "Prix variables, on peut trouver des écharpes ou autres objets pour un prix raisonnable (~15€ minimum pour une écharpe mais goodies dès 4-5€)"
+    ],
+    "gallery": [
+      "https://maville.com/photosmvi/2022/05/04/P30682887D5210524G.jpg",
+      "https://www.francebleu.fr/s3/cruiser-production/2023/11/d1bcb5dd-12fb-4f40-917b-381ba25557f2/600_sc_socios-2.jpg"
+    ]
+  },
+  {
+    "name": "Au Bureau Laval",
+    "description": "Pub/Brasserie situé en plein coeur de Laval, les plats sont généreux et très bons !",
+    "type": "Restauration",
+    "price": 3,
+    "icon": "https://www.toute-la-franchise.com/images/zoom/au-bureau-logo.jpg",
+    "lat": 48.0714,
+    "lon": -0.7735,
+    "website": "aubureau.fr/restaurant/?ville=AB_Laval",
+    "address": "1 All. du Vieux Saint-Louis, 53000 Laval",
+    "phone": "02 72 89 04 21",
+    "hours": [
+      [ 10, 24 ],
+      [ 10, 24 ],
+      [ 10, 24 ],
+      [ 10, 24 ],
+      [ 10, 24 ],
+      [ 0, 1, 10, 24 ],
+      [ 0, 1, 10, 24 ]
+    ],
+    "prices": [
+      "Prix assez élevés mais les plats sont vraiment bons et généreux."
+    ],
+    "gallery": [
+      "https://www.agencetanguy.com/wp-content/uploads/2020/09/DSC_9403.jpg",
+      "https://www.agencetanguy.com/wp-content/uploads/2020/09/DSC_0224.jpg",
+      "https://www.agencetanguy.com/wp-content/uploads/2020/09/DSC_9552.jpg",
+      "https://api.cloudly.space/resize/clip/1200/760/75/aHR0cHM6Ly9jZHQ0NC5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC8yNDIyMTQ0MDYtMTMyNDkzNjc1Nzc1MjAwLTU0MDY1NjYyMDc1NTg2MjEyNzktbi5qcGc=/image.jpg"
+    ]
+  },
+  {
+    "name": "Base de loisirs de l'Orbière",
+    "description": "Situé à moins de 10 minutes de Laval, ce lieu combine accrobranche, balades à cheval, course d'énigmes... le tout en plein coeur de la fôret.",
+    "type": "Loisirs",
+    "price": 2,
+    "icon": "https://www.visorando.com/images/inter/m-rando-force-visorando-l-5968718.jpeg",
+    "lat": 48.0303,
+    "lon": -0.7174,
+    "website": "lorbiere.fr",
+    "address": "L'Orbière, 53260 Forcé",
+    "phone": "02 43 56 63 93",
+    "hours": [
+      [ 12, 19 ],
+      [ 12, 19 ],
+      [ 12, 19 ],
+      [ 12, 19 ],
+      [ 12, 19 ],
+      [ 12, 19 ],
+      [ 12, 19 ]
+    ],
+    "prices": [
+      [
+        "Parcours Accrobranche",
+        24
+      ],
+      [
+        "Course d'Orientation et accro-orientation",
+        9.5
+      ],
+      [
+        "Parcours énigmes",
+        13
+      ],
+      [
+        "Balades à cheval",
+        25
+      ],
+      [
+        "Balade en barque ou canoë - Tarif à l'heure pour 1 personne",
+        6
+      ],
+      [
+        "Archery Tag 8 à 14 personnes - Tarif pour 1 personne",
+        16
+      ],
+      [
+        "Tournoi d'Archery Tag 15 personnes et plus - Tarif pour 1 personne",
+        19
+      ]
+    ],
+    "gallery": [
+      "https://lorbiere.fr/wp-content/uploads/2020/03/slide-image-dark-1.jpg",
+      "https://cdt72.media.tourinsoft.eu/upload/528200-cabane-sur-pilotis-3m-mesange.jpg",
+      "https://cdn0.mariages.net/vendor/0693/3_2/640/jpg/la-grange-de-l-orbiere-52_3_130693-170377372753106.jpeg",
+      "https://woody.cloudly.space/app/uploads/tourisme-mayenne/2021/05/thumbs/parcours-accrobranche-au-bois-a-force-force-cp-pascal-beltrami---mayenne-tourisme---l-orbiere--domaine-de-loisirs--hebergements-et-receptions-1920px7-1920x960.jpg"
+    ]
+  },
+  {
+    "name": "Restaurant Universitaire",
+    "description": "Situé dans la Technopôle sur le campus de Changé, de nombreux étudiants y déjeunnent tous les jours.",
+    "type": "Restauration",
+    "price": 1,
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_Crous_vectoris%C3%A9.svg/1200px-Logo_Crous_vectoris%C3%A9.svg.png",
+    "lat": 48.0866,
+    "lon": -0.7573,
+    "website": "crous-nantes.fr/restaurant/resto-u-aubepin",
+    "address": "Parc Tertiaire Technopole, 4 Rue Georges Charpak, 53810 Changé",
+    "phone": "02 43 49 00 20",
+    "hours": [
+      [ 11.25, 13.75 ],
+      [ 11.25, 13.75 ],
+      [ 11.25, 13.75 ],
+      [ 11.25, 13.75 ],
+      [ 11.25, 13.75 ],
+      [],
+      []
+    ],
+    "prices": [
+      [
+        "Tarif boursiers",
+        1
+      ],
+      [
+        "Tarif normal (non boursiers)",
+        3.3
+      ],
+      [
+        "Supplément boisson en cannette",
+        1
+      ]
+    ],
+    "gallery": [
+      "https://media.ouest-france.fr/v1/pictures/MjAyMDExZWVhM2NkMzY3M2JkNzNlNjUxMDllY2Y0OGIyZDNiM2M",
+      "https://www.stockcrous.fr/restaurantsnantes/Resto-U-Aubepin.jpg"
+    ]
+  },
+  {
+    "name": "Stade Francis le Basser",
+    "description": "Antre du Stade Lavallois MFC, c'est un véritable lieu de partage d'émotions incontournable pour les Lavallois, impossible de passer à côté !",
+    "type": "Loisirs",
+    "price": 1,
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3c/Logo_Stade_lavallois_MFC_2022.svg/483px-Logo_Stade_lavallois_MFC_2022.svg.png",
+    "lat": 48.0823,
+    "lon": -0.7547,
+    "website": "stade-lavallois.com",
+    "address": "Av. Pierre de Coubertin, 53000 Laval",
+    "phone": "02 43 53 97 05",
+    "hours": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [ 17.5, 22.5 ],
+      []
+    ],
+    "prices": [
+      [
+        "Place en tribune Actual Haut - Tarif étudiant",
+        10
+      ],
+      [
+        "Place en tribune Actual Bas - Tarif étudiant",
+        6.5
+      ],
+      [
+        "Place en tribune A - Tarif étudiant",
+        3.5
+      ],
+      [
+        "Place en tribune Crédit Mutuel - Tarif étudiant",
+        9
+      ]
+    ],
+    "gallery": [
+      "https://www.sofoot.com/convert/LzIwMjMvMTIvMjAwMDMyNTkvSWNvbl9CQVBfMDUwODIzXzkzXzI2MC0xNDAweDkzMy5qcGc/image/les-secrets-de-la-premiere-partie-de-saison-du-stade-lavallois.jpg",
+      "https://www.sofoot.com/convert/LzIwMjMvMTAvMjMxNTI2NTUvNjAxOTUyMC1oZC0xNDAweDkzMy5qcGc/image/le-beau-geste-du-stade-lavallois-envers-les-supporters-stephanois.jpg",
+      "https://media.ouest-france.fr/v1/pictures/MjAyMzA2MGI3MTYyMDJmODI4NjU2MWQzMWNmMTJhYThiZDVmZTY",
+      "https://media.ouest-france.fr/v1/pictures/MjAxODAyYmIzNmE3ZDlkMTBlYzk0Y2NlNDg5NjY1ZWQ1NjgwZjc"
+    ]
+  },
+  {
+    "name": "Plaine des Gandonnières",
+    "description": "Centre d'entraînement du Stade Lavallois MFC, on y trouve également la boutique et la billeterie du club.",
+    "type": "Loisirs",
+    "price": 2,
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3c/Logo_Stade_lavallois_MFC_2022.svg/483px-Logo_Stade_lavallois_MFC_2022.svg.png",
+    "lat": 48.0710,
+    "lon": -0.8026,
+    "website": "stade-lavallois.com",
+    "address": "Plaine des Gandonnières, Rue Georges Coupeau, 53000 Laval",
+    "phone": "02 43 53 97 05",
+    "hours": [
+      [ 9, 12, 14, 18 ],
+      [ 9, 12, 14, 18 ],
+      [ 9, 12, 14, 18 ],
+      [ 9, 12, 14, 18 ],
+      [ 9, 12, 14, 18 ],
+      [],
+      []
+    ],
+    "prices": [
+      "Prix des billets de matchs très accessibles en revanche il faudra débourser un peu plus pour des objets de supporters (ex : Écharpes dès 12€, Maillots à 85€)."
+    ],
+    "gallery": [
+      "https://www.francebleu.fr/s3/cruiser-production/2022/04/1dd9fa32-3f2d-41e3-8dc7-5162a5dc10cc/1200x680_photo_12_-_gandonnieres.jpg",
+      "https://maville.com/photosmvi/2021/04/24/P26021632D4596959G.jpg"
+    ]
+  },
+  {
+    "name": "Crous Laval",
+    "description": "Centre régional des œuvres universitaires et scolaires (Crous) antenne de Laval",
+    "type": "Essentiel",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_Crous_vectoris%C3%A9.svg/1349px-Logo_Crous_vectoris%C3%A9.svg.png",
+    "lat": 48.0853,
+    "lon": -0.7592,
+    "website": "crous-nantes.fr",
+    "address": "Résidence la Dormerie 54 rue des Docteurs Calmette et Guérin, 53000 Laval",
+    "phone": "02 43 49 25 85",
+    "hours": [
+      [ 9, 12, 14, 16.5 ],
+      [ 9, 12, 14, 16.5 ],
+      [ 9, 12, 14, 16.5 ],
+      [ 9, 12, 14, 16.5 ],
+      [ 9, 12, 14, 16.5 ],
+      [],
+      []
+    ],
+    "prices": [
+      "Entrée libre"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://www.lokaviz.fr/img/thumbnails/900_560/dormerie_exterieure.gif?1380359984"
+    ]
+  },
+  {
+    "name": "Centre Hospitalier",
+    "description": "Hôpital de Laval",
+    "type": "Essentiel",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX7ttodbI5hRfspAynLZm8-Ps1Fa7kQqxKa9KVpIWrqQ&s",
+    "lat": 48.0636,
+    "lon": -0.7840,
+    "website": "chlaval.fr",
+    "address": "33 Rue du Haut Rocher, 53000 Laval",
+    "phone": "02 43 66 50 00",
+    "hours": [
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ]
+    ],
+    "prices": [
+      "Entrée libre 24/7"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://france3-regions.francetvinfo.fr/image/T6H9CtPjRG1iQK53eYIWjG-kOS4/1200x900/regions/2022/01/27/61f2486e05005_maxnewsworldfive631854.jpg",
+      "https://media.ouest-france.fr/v1/pictures/MjAyMzAxYjgxNzM2YWFhMzdjYmMwMTc4NWJmOGVmOGM3ODQ2ZmM"
+    ]
+  },
+  {
+    "name": "Polyclinique du Maine",
+    "description": "Polyclinique de Laval",
+    "type": "Essentiel",
+    "icon": "https://agence-api.ouest-france.fr/cache/2/0/1/f/5/201f5f87534d3742b15b0a13b6d6831f9901b37b.png",
+    "lat": 48.0580,
+    "lon": -0.7870,
+    "website": "http://polyclinique-maine.fr",
+    "address": "4 Av. des Français Libres CS 11027, 53000 Laval",
+    "phone": "02 43 66 36 00",
+    "hours": [
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ]
+    ],
+    "prices": [
+      "Entrée libre 24/7"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://freight.cargo.site/t/original/i/f9cbd5bf65d27fd51c21eab9437802202ec3ba47e9f5f29a5f42d0f0505eb9ac/IMG_8164.JPG"
+    ]
+  },
+  {
+    "name": "Marché central",
+    "description": "Situé en plein coeur de Laval, le marché central prend place tous les samedis.",
+    "type": "Commerce",
+    "price": -1,
+    "lat": 48.0688,
+    "lon": -0.7722,
+    "website": "laval.fr/au-quotidien/commerces-et-marches/marches-hebdomadaires/marche-central",
+    "address": "Pl. de la Tremoille, 53000 Laval",
+    "hours": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [ 8, 13 ],
+      []
+    ],
+    "prices": [
+      "Accès libre le samedi matin avec des prix très corrects selon les produits."
+    ],
+    "gallery": [
+      "https://www.laval.fr/fileadmin/_processed_/b/e/csm_Marche_de_Laval_65cbb2f3e6.jpg",
+      "https://woody.cloudly.space/app/uploads/tourisme-mayenne/2021/09/thumbs/marche-place-de-la-tremoille-laval-ville-cp-d-photo--53-1920px-640x640.jpg",
+      "https://image.jimcdn.com/app/cms/image/transf/dimension=441x10000:format=png/path/se319390a15e2ceaf/image/ib1c91c996ef06c29/version/1603377765/image.png"
+    ]
+  },
+  {
+    "name": "AMAP les Resses de la semaine",
+    "description": "À deux pas du campus de la Technopole, l'AMAP 53 (Association pour le Maintien d'une Agriculture Paysanne) propose des produits frais et locaux !",
+    "type": "Commerce",
+    "icon": "https://i1.wp.com/astuces-eco.fr/wp-content/uploads/logo_amap_gd.png?resize=300%2C300",
+    "price": 1,
+    "lat": 48.0839,
+    "lon": -0.7559,
+    "website": "amap53.eklablog.com/les-resses-de-la-semaine-p1007636",
+    "address": "161-169 Av. Pierre de Coubertin, 53000 Laval",
+    "hours": [
+      [],
+      [ 17.5, 19.5 ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "prices": [
+      "Prix très raisonnables pour des produits qualitatifs, des réductions étudiantes sont également disponibles."
+    ],
+    "gallery": [
+      "https://media.ouest-france.fr/v1/pictures/MjAxNzEyMmY5YWNlMzViZDQ1N2Q5NTJlMjdkZjVmMWMxYjM2NTM",
+      "https://terreetavenir.com/wp-content/uploads/2017/05/amap-en-ligne-752x394.jpg"
+    ]
+  },
+  {
+    "name": "Square de Boston",
+    "description": "Profitez de ce lieu aux bords de la Mayenne pour vous promener, vous poser ou bien manger un en-cas notamment lors d'une belle journée d'été.",
+    "type": "Lieux Notables",
+    "lat": 48.0743,
+    "lon": -0.7719,
+    "website": "laval-tourisme.com/activites/patrimoine/parcs-jardins/le-square-de-boston-237213",
+    "address": "Square de Boston, Rue du Vieux Saint-Louis, 53000 Laval",
+    "hours": [
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ]
+    ],
+    "prices": [
+      "Accès libre"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://cdt44.media.tourinsoft.eu/upload/27891-img-0399.jpg",
+      "https://live.staticflickr.com/6134/5998570239_a6ffec3613_b.jpg",
+      "https://cdt44.media.tourinsoft.eu/upload/24583-kiosque-square-boston1.jpg",
+      "https://pays-du-maine-angevin.com/wp-content/uploads/2017/12/viaduc-de-laval-1024x385.jpg"
+    ]
+  },
+  {
+    "name": "Promenade Anne d'Alègre",
+    "description": "Juste à côté du jardin de la Perrine, ce sentier au bord des remparts n'en est pas moins superbe.",
+    "type": "Lieux Notables",
+    "lat": 48.067,
+    "lon": -0.7723,
+    "website": "laval.fr/decouvrir-sortir/parcs-et-jardins/promenade-anne-dalegre",
+    "address": "Prom. Anne d'Alègre, 53000 Laval",
+    "hours": [
+      [ 8, 19 ],
+      [ 8, 19 ],
+      [ 8, 19 ],
+      [ 8, 19 ],
+      [ 8, 19 ],
+      [ 8, 19 ],
+      [ 9, 19 ]
+    ],
+    "prices": [
+      "Accès libre"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://cdt44.media.tourinsoft.eu/upload/24351-rempart-laval2.jpg",
+      "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9jZHQ0NC5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC9Qcm1lbmFkZS1Bbm5lLUFsZWdyZS0yLS1QYXNjYWwtQmVsdHJhbWktTGF2YWwtVG91cmlzbWUuanBn/image.jpg",
+      "https://cdn.getyourguide.com/img/tour/5a957d9169ea3.jpeg/60.jpg"
+    ]
+  },
+  {
+    "name": "Bois de l'Huisserie",
+    "description": "Situé juste à la sortie de Laval, ce bois accueille grands et petits pour se promener, faire du sport ou simplement profiter d'un bon bol d'air frais.",
+    "type": "Lieux Notables",
+    "lat": 48.0373,
+    "lon": -0.7830,
+    "website": "laval.fr/decouvrir-sortir/parcs-et-jardins/bois-de-lhuisserie",
+    "address": "Bois de l'Huisserie",
+    "hours": [
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ],
+      [ 0, 24 ]
+    ],
+    "prices": [
+      "Accès libre"
+    ],
+    "rating": -1,
+    "gallery": [
+      "https://media.ouest-france.fr/v1/pictures/MjAyMjA4MjA2NjMwNzAzYjNjMjc4ZWQ3MmRiNWE2MjQ0ZjRhOTE",
+      "https://53.kidiklik.fr/sites/default/files/2023-03/ENS%20%20kidiklik%20format%20%2811%29.png",
+      "https://res.cloudinary.com/easymountain/image/upload/dpr_2.625,q_auto/c_fill,g_auto,h_257,w_352/v1/decathlon-outdoor/prod/hikes/62baf3627dc8b/62baf3627dc8b-1656419170"
+    ]
+  },
+  {
+    "name": "L'Afterwork",
+    "description": "Bar situé dans le vieux Laval, c'est un endroit formidable pour prendre un verre et grignoter un petit quelque chose avec ses amis !",
+    "type": "Bar",
+    "price": 2,
+    "icon": "https://www.fourniresto.com/blog/wp-content/uploads/2017/06/De%CC%81gustez-une-bonne-bie%CC%80re-artisanale-a%CC%80-lAfter-Work-Laval.jpg",
+    "lat": 48.0679,
+    "lon": -0.7708,
+    "website": "after-work-laval.fr",
+    "address": "27 Grande Rue, 53000 Laval",
+    "hours": [
+      [ 17, 23 ],
+      [ 17, 23 ],
+      [ 17, 23 ],
+      [ 17, 0.5 ],
+      [ 17, 0.5 ],
+      [],
+      []
+    ],
+    "prices": [
+      "Prix très raisonnables pour profiter de sa soirée !"
+    ],
+    "gallery": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/2c/c0/fb/l-after-work.jpg?w=1200&h=-1&s=1",
+      "https://cdt44.media.tourinsoft.eu/upload/bar-after-work-laval-2.jpg"
+    ]
+  },
+  {
+    "name": "Black Bear Laval",
+    "description": "Bistrot, bar à vin de Laval, il propose 21 bières pression ainsi qu'une multitude de whiskies et rhums à la dégustation. Un service de restauration est également disponible.",
+    "type": "Bar",
+    "price": 2,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEDMmu_hKDD5MSisalsbdRqP-buD1fKy64vVqa_sPb7Q&s",
+    "lat": 48.0684,
+    "lon": -0.7703,
+    "website": "instagram.com/blackbearlaval",
+    "address": "89 Rue du Val de Mayenne, 53000 Laval",
+    "phone": "02 44 72 61 13",
+    "hours": [
+      [ 17, 23 ],
+      [ 17, 23 ],
+      [ 17, 1 ],
+      [ 17, 2 ],
+      [ 17, 2 ],
+      [ 17, 2 ],
+      [ 17, 21 ]
+    ],
+    "prices": [
+      "Prix très corrects dépendants beaucoup des spécialités du moment, n'hésitez pas à aller voir leur page Instagram (cf Voir plus d'informations ci-dessous)"
+    ],
+    "gallery": [
+      "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9jZHQ0NC5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC9pbWFnZS1ibGFjay1iZWFyLTIuanBn/image.jpg",
+      "https://media.ouest-france.fr/v1/pictures/MjAyMTA1YzU4NGFlZmE4ZWJhNGIxNzQ4N2Q4N2Y1NzQ1YmJmNDg"
+    ]
+  },
+  {
+    "name": "O'Regans",
+    "description": "Bar à l'atmosphère Irlandaise, c'est un lieu très apprécié à Laval où vous pourrez boire un verre mais également progiter d'animations assez souvent.",
+    "type": "Bar",
+    "price": 2,
+    "lat": 48.0684,
+    "lon": -0.7678,
+    "website": "instagram.com/oregans.laval",
+    "address": "48 Rue du Pont de Mayenne, 53000 Laval",
+    "phone": "02 43 53 37 22",
+    "hours": [
+      [ 17, 0 ],
+      [ 17, 0 ],
+      [ 17, 1 ],
+      [ 17, 1 ],
+      [ 17, 1 ],
+      [ 17, 1 ],
+      [ 17, 1 ]
+    ],
+    "prices": [
+      "Prix très corrects dans l'ensemble"
+    ],
+    "gallery": [
+      "https://10619-2.s.cdn12.com/rests/original/105_519346656.jpg",
+      "https://laval.maville.com/etablissements/2007-11/224.jpg"
+    ]
+  },
+  {
+    "name": "Vieux château de Laval - Musée d'arts naïfs",
+    "description": "Accueillant également le musée d'arts naïfs le château est un véritable phare au coeur de la ville.",
+    "type": "Lieux Notables",
+    "price": 1,
+    "icon": "/logos/arts_naif.jpg",
+    "lat": 48.0685,
+    "lon": -0.7707,
+    "website": "musees.laval.fr/manas",
+    "address": "Vieux Château, Pl. de la Tremoille, 53000 Laval",
+    "phone": "02 53 74 12 30",
+    "hours": [
+      [],
+      [ 9, 12, 13.5, 18 ],
+      [ 9, 12, 13.5, 18 ],
+      [ 9, 12, 13.5, 18 ],
+      [ 9, 12, 13.5, 18 ],
+      [ 9, 12, 13.5, 18 ],
+      [ 14, 18 ]
+    ],
+    "prices": [
+      "Visite gratuite pour les -26 ans"
+    ],
+    "gallery": [
+      "https://maville.com/photosmvi/2020/07/04/P23138408D4162332G.jpg",
+      "https://patrimoine.laval.fr/lavalpatrimoine/wp-content/uploads/sites/2/2023/02/20220221_191251-1140x855.jpg",
+      "https://www.laval-tourisme.com/sites/laval-tourisme/files/styles/gallery_lightbox/public/content/images5d97048fa17d4/1570178189-127177289.jpg?itok=86jo5fQF",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/LVL_mus%C3%A9e_20170411_144332_11.jpg/1200px-LVL_mus%C3%A9e_20170411_144332_11.jpg",
+      "https://mom-art.org/wp-content/uploads/2021/11/MANAS_SALLE-4-scaled.jpg"
+    ]
+  },
+  {
+    "name": "L'antre des joueurs",
+    "description": "Magasin de jeux de cartes et de plateaux organisant régulièrement des événements.",
+    "type": "Commerce",
+    "price": 1,
+    "icon": "/logos/antre_des_joueurs.jpg",
+    "lat": 48.0714,
+    "lon": -0.7678,
+    "website": "instagram.com/antre_des_joueurs",
+    "address": "3 rue du lieutenant, 53000 Laval",
+    "phone": "09 83 97 63 67",
+    "hours": [
+      [],
+      [ 10, 19 ],
+      [ 10, 19 ],
+      [ 10, 19 ],
+      [ 10, 19 ],
+      [ 10, 19 ],
+      []
+    ],
+    "gallery": [
+      "https://media.ouest-france.fr/v1/pictures/MjAyMjExYmE0MDc1MTJkNzY1NDE4YmExYTkzNDA2NTE2NGRkM2Y"
+    ]
+  },
+  {
+    "name": "Carrefour Market",
+    "description": "Supermarché de la chaîne Carrefour",
+    "type": "Supermarché",
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/3b/Logo_Carrefour.svg/884px-Logo_Carrefour.svg.png?20140607064500",
+    "lat": 48.0679,
+    "lon": -0.7607,
+    "website": "carrefour.fr/magasin/market-laval",
+    "address": "61 boulevard Felix Grat Saint Michel, 53000 Laval",
+    "phone": "02 43 53 49 45",
+    "hours": [
+      [ 8.5, 19.5 ],
+      [ 8.5, 19.5 ],
+      [ 8.5, 19.5 ],
+      [ 8.5, 19.5 ],
+      [ 8.5, 19.5 ],
+      [ 8.5, 19.5 ],
+      []
+    ],
+    "price": -1,
+    "gallery": [
+      "https://media.ouest-france.fr/v1/pictures/MjAxODExMjViNjAyYzcwZTBmMmE1MWE2NzI1ZGI3NWI5ZjgzOTc"
+    ]
+  },
+  {
+    "name": "Carrefour City",
+    "description": "Petit Supermarché de la chaîne Carrefour",
+    "type": "Supermarché",
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/11/Logo_Carrefour_City_depuis_2016.svg/900px-Logo_Carrefour_City_depuis_2016.svg.png?20180521000613",
+    "lat": 48.0739,
+    "lon": -0.7628,
+    "website": "carrefour.fr/magasin/city-laval-buron",
+    "address": "63 65 Av. Robert Buron, 53000 Laval",
+    "phone": "02 43 59 48 31",
+    "hours": [
+      [ 7, 22 ],
+      [ 7, 22 ],
+      [ 7, 22 ],
+      [ 7, 22 ],
+      [ 7, 22 ],
+      [ 7, 22 ],
+      [ 9, 13 ]
+    ],
+    "price": -1,
+    "gallery": [
+      "https://www.laval-coeurdecommerces.fr/images/commerces/carrefour-city/carrefour-city_devanture.jpg"
+    ]
+  },
+  {
+    "name": "E.Leclerc de Laval",
+    "description": "Supermarché de la chaîne E. Leclerc",
+    "type": "Supermarché",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4vPA4IZAzav22hEty-QUwvZClulGfZhi8VVz7RC5anucJGdJ6Plfz3RoIZSG_L5irmI&usqp=CAU",
+    "lat": 48.0548,
+    "lon": -0.7337,
+    "website": "https://www.e.leclerc/mag/e-leclerc-laval",
+    "address": "60 Av. de la Communauté Européenne, 53000 Laval",
+    "phone": "02 43 49 71 00",
+    "hours": [
+      [ 8.5, 20 ],
+      [ 8.5, 20 ],
+      [ 8.5, 20 ],
+      [ 8.5, 20 ],
+      [ 8.5, 20 ],
+      [ 8.5, 20 ],
+      []
+    ],
+    "price": -1,
+    "gallery": [
+      "https://s7e5a.scene7.com/is/image/gtinternet/1698052937581?scl=1&op_sharpen=1&resmode=bilin&fmt=pjpeg&qlt=85&wid=1900&fit=fit,1&hei=583"
+    ]
+  },
+  {
+    "name": "Gare SNCF",
+    "type": "Transport",
+    "price": -1,
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/46/Logo_SNCF_2011.svg",
+    "description": "La gare SNCF de Laval, reçoit des trains régionaux ainsi que des TGVs. Pour un aller à Paris il faut compter environ 1h30 en TGV.",
+    "lat": 48.0762308,
+    "lon": -0.7635111,
+    "address": "Place de la Gare, 53000 Laval",
+    "website": "www.garesetconnexions.sncf/fr/gares-services/laval",
+    "hours": [
+      [ 5.5, 14, 14.5, 21.5 ],
+      [ 5.5, 14, 14.5, 21.5 ],
+      [ 5.5, 14, 14.5, 21.5 ],
+      [ 5.5, 14, 14.5, 21.5 ],
+      [ 5.5, 14, 14.5, 22 ],
+      [ 12.25, 21 ],
+      [ 7.75, 14, 15.25, 23.75 ]
+    ],
+    "gallery": [
+      "https://www.francebleu.fr/s3/cruiser-production/2023/12/174e4e14-3524-48d1-aa74-335bb6063b3f/1200x680_sc_141094-m9d2svf7bj-whr.jpg",
+      "https://www.agglo-laval.fr/fileadmin/_processed_/b/6/csm_06_05_2019_Amenagement_Gare___1__c811f536b3.jpg",
+      "https://media.ouest-france.fr/v1/pictures/MjAxODAzY2NiMjhjYjIwY2NlMWY3MjdlYTNmMzM5ZWVkNmI0Yzk"
+    ]
+  },
+  {
+    "name": "Le 6PAR4",
+    "description": "Le 6PAR4 est une salle de musiques sur les bords de la Mayenne, elle ouvre généralement 30 minutes avant les concerts.",
+    "type": "Loisirs",
+    "icon": "https://billetterie.6par4.com/sites/billetterie.6par4.com/files/styles/ratio_auto_1920/public/theme/logo_billetterie.png",
+    "lat": 48.0789,
+    "lon": -0.7716,
+    "website": "https://www.6par4.com/",
+    "address": "177 Rue du Vieux Saint-Louis, 53000 Laval",
+    "phone": "02 43 59 77 80",
+    "price": 1,
+    "gallery": [
+      "https://www.6par4.com/wp-content/uploads/2021/10/recrutement-800x400.jpg",
+      "https://agendaculturel.emstorage.fr/6-par-4-20231107153525.jpg",
+      "https://www.6par4.com/wp-content/uploads/2020/07/6par4-smac-laval06.jpg"
+    ],
+    "prices": [
+      "Tarif réduit pour les étudiants"
+    ]
+  },
+  {
+    "name": "Crêperie Ty Billig",
+    "description": "Crêperie située dans le vieux Laval",
+    "type": "Restauration",
+    "icon": "https://creperie-ty-billig-laval.com/uploads/media/images/cms/medias/thumb_/cms/medias/623860a5db6bf_images_medium.png",
+    "lat": 48.0675,
+    "lon": -0.7726,
+    "website": "https://creperie-ty-billig-laval.com/fr",
+    "address": "1 Rue des Serruriers, 53000 Laval",
+    "phone": "02 43 56 59 51",
+    "price": 2,
+    "hours": [
+      [],
+      [ 12, 14, 19, 21.25 ],
+      [ 12, 14, 19, 21.25 ],
+      [ 12, 14, 19, 21.25 ],
+      [ 12, 14, 19, 21.5 ],
+      [ 12, 14, 19, 21,5 ],
+      []
+    ],
+    "gallery": [
+      "https://www.pagesjaunes.fr/media/ugc/creperie_ty_billig_05313000_172111466?w=355&h=255&crop=false",
+      "https://media-cdn.tripadvisor.com/media/photo-s/08/ac/4a/c8/creperie-ty-billig.jpg"
+    ],
+    "prices": [
+      "Tarif corrects variables selon le menu, n'hésitez pas à vous renseigner sur leur site web !"
+    ]
+  }
+]

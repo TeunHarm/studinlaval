@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Gala de l'ESIEA",
+    "organiser": "BDE Esiea",
+    "description": "Venez fêter les diplomés de l'ESIEA !  L'occasion de rencontrer des gens et de passer une soirée incroyable, je ne sais pas quoi dire de plus pour rallonger cette description du coup la j'ai give up en gros mais c'est pas grave. Qu'est ce que vous en pensez ? Gwendal trouve ça bien",
+    "logo": "logo_white.png",
+    "address": "Club Haussman, Paris",
+    "reservation": "https://teunharm.net",
+    "start": "04/03/2024",
+    "end": "04/04/2024"
+  },
+  {
+    "name": "Boucles de la Mayenne Crédit Mutuel",
+    "organiser": "Département de la Mayenne",
+    "description": "Course cycliste Pro Series incontournable, les Boucles de la Mayenne comportent un prologue ainsi que trois étapes au sein du département. Des cyclistes commme Bryan Coquard, Benjamin Thomas ou même le champion du monde Mathieu van de Poel ont fait leurs armes en gagnant cette compétition !",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Logo_2022_Boucles_de_la_Mayenne_Cr%C3%A9dit_Mutuel.png",
+    "address": "Département de la Mayenne",
+    "reservation": "bouclesdelamayenne.fr",
+    "start": "05/23/2024",
+    "end": "05/23/2024"
+  },
+  {
+    "name": "Salon PAIRSE",
+    "organiser": "ESIEA",
+    "description": "Venez encourager STUD'IN LAVAL sur le salon PAIRSE de l'ESIEA ! Regroupant l'entièreté des Projets à Impact RSE de l'école, c'est à vous de voter pour le projet que vous préférez ! (En espérant que ce soit nous) Contactez-nous pour plus d'informations !",
+    "logo": "https://upload.wikimedia.org/wikipedia/fr/7/73/Logo_ESIEA_2020.png",
+    "address": "ESIEA, 38 Rue des Docteurs Calmette et Guérin, 53000 Laval",
+    "start": "06/14/2024",
+    "end": "06/14/2024"
+  },
+  {
+    "name": "Laval Virtual",
+    "organiser": "Ville de Laval",
+    "description": "Laval Virtual, 1er événement dédié aux technologies immersives (réalité virtuelle, réalité augmentée, spatial computing…) rassemble depuis 1999 toute la communauté XR en Europe.",
+    "logo": "https://www.techviz.net/wp-content/uploads/laval-virtual-carre.png",
+    "address": "Espace Mayenne, 53000 Laval",
+    "reservation": "laval-virtual.com",
+    "start": "04/10/2024",
+    "end": "04/12/2024"
+  },
+  {
+    "name": "V and B Fest'",
+    "organiser": "V and B",
+    "description": "Festival devenu incontournable au fil des années, le V and B Fest' version 2024 promet un casting de folie, une fois n'est pas coutume, avec des artistes comme Major Lazer, Martin Solveig ou bien encore Macklemore !",
+    "logo": "https://vandbfest.fr/edition2024/wp-content/uploads/2024/01/Logo-V-and-B-fest-2024.svg",
+    "address": "53200 Château-Gontier-sur-Mayenne",
+    "reservation": "vandbfest.fr",
+    "start": "08/23/2024",
+    "end": "08/25/2024"
+  },
+  {
+    "name": "Les 3 éléphants",
+    "organiser": "Ville de Laval",
+    "description": "Les 3 éléphants est un festival de musiques actuelles et d’arts de la rue qui investit le centre-ville de Laval chaque année au mois de mai. L'édition 2024 aura au programme Étienne Daho, Yamê mais aussi Yoa et bien d'autres artistes talentueux !",
+    "logo": "https://www.concertandco.com/img/groupes/vignette/300/3elephant24.jpg",
+    "address": "53000 Laval",
+    "reservation": "les3elephants.com",
+    "start": "05/26/2024",
+    "end": "06/02/2024"
+  },
+  {
+    "name": "Festival Au Foin de la Rue",
+    "organiser": "Association Au Foin De La Rue",
+    "description": "Depuis 2000, l’association Au Foin De La Rue organise un festival éthique et éclectique, elle tient également à proposer une programmation artistique qui défend l’originalité et suscite la curiosité. Cette année Eddy de Pretto, Ibrahim Maalouf et bien d'autres artistes sont au programme.",
+    "logo": "https://www.aufoindelarue.com/wp-content/uploads/2019/08/BM-3-AFR24-simple-couleur.png",
+    "address": "53500 Saint-Denis-de-Gastines",
+    "reservation": "aufoindelarue.com",
+    "start": "07/07/2024",
+    "end": "07/08/2024"
+  },
+  {
+    "name": "Agile Laval",
+    "organiser": "Association Agile Laval",
+    "description": "Agile Laval est un événement annuel à l'IUT de Laval, pour étudiants, enseignants et professionnels. Il permet d'acquérir de l'expérience en pratiques agiles et de développer des compétences en gestion de projets. Les étudiants peuvent échanger avec des entreprises, explorer des opportunités d'alternance et développer leur réseau professionnel. La participation est gratuite pour les étudiants, qui peuvent également déposer leur CV. ",
+    "logo": "https://www.agilelaval.org/img/LogoAgileLaval23.png",
+    "address": "52 Rue des Docteurs Calmette et Guérin, 53000 Laval",
+    "reservation": "agilelaval.org",
+    "start": "06/13/2024",
+    "end": "06/13/2024"
+  }
+]

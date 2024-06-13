@@ -13,8 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+
+      objectPosition: {
+        title: '50% 28%'
+      }
     },
   },
-  plugins: [],
+  darkMode: "media",
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true }),
+  ],
 }
 export default config
