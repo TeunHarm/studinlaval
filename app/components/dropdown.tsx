@@ -10,7 +10,7 @@ export function Dropdown({className, items, changed, single, allText = ""} : {cl
     if (single) {
         active = items[selected[0]];
     }
-    if (allText != "" && selected.length === items.length) {
+    else if (allText != "" && selected.length === items.length) {
         active = allText
     }
     else
