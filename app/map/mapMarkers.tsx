@@ -57,7 +57,7 @@ export default function MapMarkers() {
             </button>
     
             <div className={"absolute z-[1001] top-2 left-2 bottom-2 right-5 lg:right-0 lg:w-[400px] h-fit ".concat(showFilters ? "" : "hidden")}>
-                <div className={"w-full h-full bg-gradient-to-br from-[#ffbb1b] to-[#ff25c6] rounded-xl shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 mb-5 p-[3px]"}>
+                <div className={"w-full h-full cursor-auto bg-gradient-to-br from-[#ffbb1b] to-[#ff25c6] rounded-xl shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 mb-5 p-[3px]"}>
                     <div className={"relative w-full h-full flex flex-col bg-white dark:bg-gray-800 p-1 rounded-[0.65rem]"}>
                         <p className={"mx-auto mb-2 text-xl md:text-2xl font-semibold"}>Filtrer la carte</p>
         
