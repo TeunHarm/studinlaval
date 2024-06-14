@@ -19,7 +19,7 @@ export default function Home() {
             
             <div className={"my-12 mx-auto md:px-6 w-11/12 md:w-2/3 border-t-[1px] border-b-[1px] border-gray-600 dark:border-gray-400 py-6 flex flex-col "}>
                 <p className={"text-xl md:text-2xl text-justify md:text-left mb-3"}>
-                    Envie de mieux connaitre Laval ? Ou alors de trouver le lieux parfait pour passer le temps ? Ou encore de découvrir des lieux pratiques au quotidien ?
+                    Envie de mieux connaître Laval, de trouver le lieux parfait pour passer le temps ou bien encore de découvrir des lieux pratiques au quotidien ?
                 </p>
                 <ul className={"mt-1 text-lg md:text-xl text-gray-700 dark:text-gray-300"}>
                     <li>Utilise <Link href="/list/" className={"font-medium underline"}>La Liste</Link> pour rapidement trouver les lieux qui t&lsquo;intéressent grâce aux filtres.</li>
