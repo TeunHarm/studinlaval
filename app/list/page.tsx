@@ -141,7 +141,7 @@ function ListItem({placeInfo, onOpened}: {placeInfo: PlaceInfo, onOpened: Functi
                         <b className={"text-center font-medium text-base md:text-lg lg:text-xl ml-[10px] mr-[1rem] lg:-ml-[144px] underline underline-offset-2 text-blue-400 hover:text-blue-300 cursor-pointer"} onClick={() => onOpened(placeInfo.id)}>Voir plus d&rsquo;informations</b>
                         
                         <div className={"flex place-content-end"}>
-                            <p className={"text-sm md:text-base lg:text-xl text-center ".concat(isOpen ? "text-green-400" : "text-red-400")}>{isOpen ? "Actuellement ouvert" : "Actuellement fermé"}</p>
+                            <p className={"text-sm md:text-base lg:text-xl text-center ".concat(placeInfo.hours ? (isOpen ? "text-green-400" : "text-red-400") : "hidden")}>{isOpen ? "Actuellement ouvert" : "Actuellement fermé"}</p>
                             {
                                 placeInfo.address ?
                                     <Link className={"font-medium text-blue-400 hover:text-blue-300 ml-5 underline underline-offset-2 text-sm md:text-base lg:text-xl"} href={"https://www.google.com/maps/dir/?api=1&destination=" + encodeURI(placeInfo.address) + "&travelmode=walking"} target="_blank">
