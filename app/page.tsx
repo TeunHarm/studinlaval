@@ -5,7 +5,7 @@ import {EventInfo, getEvents, sortEvents, upcomingEvents} from "@/app/eventManag
 import Link from "next/link";
 
 export default function Home() {
-    const placeOfTheWeek = [21, 9, 15, 19];
+    const placeOfTheWeek = [22, 7, 15, 30];
     
     return (
         <main className="flex-grow bg-white dark:bg-gray-800">
