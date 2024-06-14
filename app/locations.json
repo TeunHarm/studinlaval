@@ -935,9 +935,9 @@
     "name": "Centre de santé IUT Laval",
     "description": "Centre de santé situé sur le campus de la Technopole",
     "type": "Essentiel",
-    "icon": "https://pbs.twimg.com/profile_images/1323541845192966144/7rxqOjuP_400x400.jpg",
     "lat": 48.0859,
     "lon": -0.7578,
+    "icon" : "https://avatars.githubusercontent.com/u/16900270?s=200&v=4",
     "website": "https://iut-laval.univ-lemans.fr/fr/campus-et-moi/centre-de-sante.html",
     "address": "52 Rue des Docteurs Calmette et Guérin, 53000 Laval",
     "phone": "02 43 83 39 20",
@@ -964,18 +964,10 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_Crous_vectoris%C3%A9.svg/1349px-Logo_Crous_vectoris%C3%A9.svg.png",
     "lat": 48.0850,
     "lon": -0.7591,
+    "price" : -1,
     "website": "https://www.crous-nantes.fr/logement/residence-u-la-dormerie/",
     "address": "Résidence la Dormerie 54 rue des Docteurs Calmette et Guérin, 53000 Laval",
     "phone": "02 43 49 25 85",
-    "hours": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      []
-    ],
     "gallery": [
       "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/b7f333d9-0b38-11e8-89ed-005056940822/5a97dbfb9e316-Laval%20-%20Res%20U%20La%20Dormerie%20-%20Ext.jpg",
       "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/b7f333d9-0b38-11e8-89ed-005056940822/5a97dbfc6499f-Laval%20-%20Res%20U%20La%20Dormerie%20-%20Ext%202.jpg",
@@ -992,18 +984,10 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_Crous_vectoris%C3%A9.svg/1349px-Logo_Crous_vectoris%C3%A9.svg.png",
     "lat": 48.0759,
     "lon": -0.7587,
+    "price" : -1,
     "website": "https://www.crous-nantes.fr/logement/residence-u-robert-tatin/",
     "address": "5 place des 7 et 15 juin 1944 - 53000 LAVAL",
     "phone": "02 43 49 25 85",
-    "hours": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      []
-    ],
     "gallery": [
       "https://iut-laval.univ-lemans.fr/_resource/Campus-et-Moi/Robert%20Tatin_164x283.png"
     ],
@@ -1015,20 +999,12 @@
     "name": "Résidence les Estudialis",
     "description": "Réparties en 3 résidences pour 10 bâtiments au total, cette résidence propose 180 logements. Proposé par Marimo Immobilier",
     "type": "Logements",
-    "lat": 48.0850,
-    "lon": -0.7591,
+    "lat": 48.0857,
+    "lon": -0.7542,
+    "price" : -1,
     "website": "https://marimo-immobilier.com/",
     "address": "Résidence Estudialis, 5 Rue Charles Nicolle, 53810 Changé",
     "phone": "02 43 49 26 09",
-    "hours": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      []
-    ],
     "gallery": [
       "https://marimo-immobilier.com/photobox/apa_LAVAL_juk/location/photo/Capture_d_cran_2023-02-22_114644-13767875756331794164.jpg",
       "https://lh5.googleusercontent.com/p/AF1QipODpKiJqOJfaLhjN13geY5n8kUjmfOTe3Mx6DA4=w408-h545-k-no",
@@ -1044,18 +1020,10 @@
     "type": "Logements",
     "lat": 48.0868,
     "lon": -0.7531,
+    "price" : -1,
     "website": "http://studival-laval.fr/index.html",
     "address": "9 Rue Charles Nicolle, 53810 Changé",
     "phone": "02 43 59 21 70",
-    "hours": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      []
-    ],
     "gallery": [
       "https://media.ouest-france.fr/v1/pictures/MjAyMTA0MDA3Zjk1YTMzYjc4MzY2YWZmNTEzZDZlYjcyYTUzNzA?width=1260&height=708&focuspoint=50%2C50&cropresize=1&client_id=bpeditorial&sign=78839ee7d44e171d3b0bd58d0f775139ea67e53454321e65c62158d866c70ae2",
       "https://lh5.googleusercontent.com/proxy/146K7-Nd2FuBtjyZitZQk4h8KAA475x8vGCWvnR-77XUqcYC4zKpR147VflVGC1LkCc8y7-UFLdrW3kJ9EG0"

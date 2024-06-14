@@ -5,6 +5,7 @@ import './globals.css'
 
 import Header from "@/app/header";
 import Link from "next/link";
+import {ReactNode} from "react";
 
 //const globalFont = Oxanium({ subsets: ['latin'] })
 const globalFont = League_Spartan({subsets: ["latin"]})
@@ -14,8 +15,8 @@ export const metadata: Metadata = {
     description: 'Découvre ou redécouvre les meilleurs coins de Laval et ses environs.',
 }
 
-export default function RootLayout({ children, }: { children: React.ReactNode }) {
-    let showVote = false;
+export default function RootLayout({ children, }: { children: ReactNode }) {
+    const voteURL = "https://studinlaval.fr";
     
     return (
         <html lang="en" className={"scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-thumb-rounded-full scrollbar-track-transparent"}>
@@ -24,7 +25,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
             {children}
             <div className={"bg-gray-300 dark:bg-gray-900 flex flex-row p-2 place-items-center"}>
                 <p className={"w-full text-xs md:text-base"}>Ce site vous est proposé par des étudiants de l&lsquo;Esiea.</p>
-                { showVote ? <Link href="https://google.fr" className={"w-full text-center text-lg font-semibold transition-colors hover:text-blue-400"}>📝 Votez pour nous! 👍</Link> : null }
+                { voteURL !== "" ? <Link href={voteURL} className={"w-full text-center text-lg font-semibold transition-colors hover:text-blue-400"}>📝 Votez pour nous! 👍</Link> : null }
                 <div className={"md:w-full flex place-content-end"}>
                     <Link className={"mr-2 flex flex-row items-center"} href="https://www.instagram.com/studinlaval/">
                         <p className={"mr-2 hidden md:block hover:text-blue-400"}>Suivez nous sur instagram</p>
