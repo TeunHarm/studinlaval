@@ -25,7 +25,7 @@ export default function RootLayout({ children, }: { children: ReactNode }) {
             {children}
             <div className={"bg-gray-300 dark:bg-gray-900 flex flex-row p-2 place-items-center"}>
                 <p className={"w-full text-xs md:text-base"}>Ce site vous est proposé par des étudiants de l&lsquo;Esiea.</p>
-                { voteURL !== "" ? <Link href={voteURL} className={"w-full text-center text-lg font-semibold transition-colors hover:text-blue-400"}>📝 Votez pour nous! 👍</Link> : null }
+                { voteURL !== "" ? <Link href={voteURL} className={"w-full text-center text-lg font-semibold transition-colors hover:text-blue-400"}>📝 Votez pour le guide étudiant ! 👍</Link> : null }
                 <div className={"md:w-full flex place-content-end"}>
                     <Link className={"mr-2 flex flex-row items-center"} href="https://www.instagram.com/studinlaval/">
                         <p className={"mr-2 hidden md:block hover:text-blue-400"}>Suivez nous sur instagram</p>
