@@ -38,7 +38,7 @@ export default function PlaceDescriptor({placeInfo} : {placeInfo: PlaceInfo}) {
         <div className={"mt-1 flex flex-row items-center"}>
             <b>Horaires: </b>
             <span className={"w-2"}></span>
-            <p className={open ? "text-green-500 !m-0" : "text-red-400 !m-0"}>{open ? "Actuellement ouvert" : "Actuellement fermé"}</p>
+            <p className={placeInfo.hours ? (open ? "text-green-500 !m-0" : "text-red-400 !m-0") : "hidden"}>{open ? "Actuellement ouvert" : "Actuellement fermé"}</p>
         </div>
         <div className={"ml-3"}>
             {getHours(placeInfo)}
@@ -72,7 +72,7 @@ export default function PlaceDescriptor({placeInfo} : {placeInfo: PlaceInfo}) {
 function getHours(placeInfo: PlaceInfo) {
     if (!placeInfo.hours) {
         return (
-            <b className={"text-red-600"}>Pas d&lsquo;horaires</b>
+            <b className={"text-red-600"}>Horaires non recensés</b>
         );
     }
 

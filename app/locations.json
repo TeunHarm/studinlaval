@@ -1031,5 +1031,33 @@
     "prices": [
       "N'hésitez pas à vous renseigner sur leur site web !"
     ]
+  },
+  {
+    "name": "Le Johannesburg",
+    "description": "Restaurant et pub a partir du jeudi. Propose des spécialités de pierrades de viandes et de poissons.",
+    "type": "Restauration",
+    "price": 2,
+    "lat": 48.06783,
+    "lon": -0.77757,
+    "website": "www.facebook.com/lejohannesburg/",
+    "address": "5 Rue de la Trinité, 53000 Laval",
+    "phone": "02 43 53 21 21",
+    "hours": [
+      [],
+      [ 17, 23 ],
+      [ 17, 23 ],
+      [ 17, 23 ],
+      [ 17, 2 ],
+      [ 17, 2 ],
+      []
+    ],
+    "prices": [
+      "Prix très corrects dans l'ensemble"
+    ],
+    "gallery": [
+      "https://10619-2.s.cdn12.com/rests/original/321_508435374.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipN4rAPUDl2vS9ZUoX_ilgPPrj1ecYZnzfhnNv89=s1600-w640",
+      "https://media-cdn.tripadvisor.com/media/photo-s/13/57/60/b3/johannesburg-le.jpg"
+    ]
   }
 ]

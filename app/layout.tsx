@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children, }: { children: ReactNode }) {
-    const voteURL: string = "https://studinlaval.fr";
+    const voteURL: string = "";
     
     return (
         <html lang="en" className={"scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-thumb-rounded-full scrollbar-track-transparent"}>
