@@ -16,8 +16,11 @@ Il utilise également **TypeScript** pour le code ainsi que **TailwindCSS** pour
   * Comme pour les lieux, ajouter un élément.
 
 ## Développement
-Vous pouvez développer le site en temps réel en exécutant la commande ```npm run dev```, ceci lancera un serveur web locale sur l'address http://localhost:3000 (si disponible) et vous pourrez éditer les fichiers du site et voir les changements en temps réel.
+Vous pouvez développer le site en temps réel en exécutant la commande ```npm run dev```, ceci lancera un serveur web locale sur l'address http://localhost:3000 (si port libre) et vous pourrez éditer les fichiers du site et voir les changements en temps réel.
 
 ## Exportation du site
 Actuellement lors d'un ```next build``` une exportation statique du site sera automatiquement créer, ceci permet de mettre le site sur un serveur web classique et non derrière NodeJS.
 Si aucun changement problèmatique à été fait, une simple exécution de la commande ```next build``` dans la racine devrait suiffire à exporter le site.
+
+## Carte
+Pour afficher la carte, créer un fichier nommé ```.env``` dans la racine et mettez ```NEXT_PUBLIC_MAPTILER_KEY = VOTRE_CLÉ``` avec VOTRE_CLÉ qui est la clé API maptiler que vous aurez crée.
