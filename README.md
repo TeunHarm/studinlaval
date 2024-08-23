@@ -23,4 +23,4 @@ Actuellement lors d'un ```next build``` une exportation statique du site sera au
 Si aucun changement problèmatique à été fait, une simple exécution de la commande ```next build``` dans la racine devrait suiffire à exporter le site.
 
 ## Carte
-Pour afficher la carte, créer un fichier nommé ```.env``` dans la racine et mettez ```NEXT_PUBLIC_MAPTILER_KEY = VOTRE_CLÉ``` avec VOTRE_CLÉ qui est la clé API maptiler que vous aurez crée.
+Pour afficher la carte, créer un fichier nommé ```.env``` dans la racine et mettez ```NEXT_PUBLIC_MAPTILER_KEY = VOTRE_CLÉ``` avec **VOTRE_CLÉ** qui est la clé API maptiler que vous aurez créé.
