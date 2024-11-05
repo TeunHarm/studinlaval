@@ -7,6 +7,8 @@ import Link from "next/link";
 export default function Home() {
     const placeOfTheWeek = [22, 7, 15, 30];
     
+    let comingEvents = upcomingEvents(sortEvents(getEvents()), true, 2);
+    
     return (
         <main className="flex-grow bg-white dark:bg-gray-800">
             <div className={"flex h-[300px] mx-auto justify-center"}>
@@ -38,7 +40,10 @@ export default function Home() {
                 </div>
                 <div className={"flex flex-col lg:place-content-around lg:flex-row"}>
                     {
-                        upcomingEvents(sortEvents(getEvents()), true, 2).map((e, ind) => <ComingEvent event={e} key={ind}/>)
+                        comingEvents.length > 0 ?
+                            comingEvents.map((e, ind) => <ComingEvent event={e} key={ind}/>)
+                        :
+                            <p className={"mx-auto mt-10 mb-8 text-gray-400 text-xl"}>Aucun événement à venir. <Link className={"mx-auto text-lg font-medium -mb-3 text-blue-400 hover:text-blue-300 underline cursor-pointer"} href={"events"}>Voir tout</Link></p>
                     }
                 </div>
             </div>
